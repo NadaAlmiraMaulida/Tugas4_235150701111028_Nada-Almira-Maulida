@@ -1,4 +1,4 @@
-class Textbook extends Book {
+class Textbook extends Book implements BookOperations {
     private String subject;
 
     public Textbook(String title, String author, int year, String subject) {
