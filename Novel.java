@@ -1,5 +1,5 @@
 
-class Novel extends Book {
+class Novel extends Book implements BookOperations {
     private String genre;
     
 
