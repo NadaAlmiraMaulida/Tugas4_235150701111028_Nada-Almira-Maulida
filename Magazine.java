@@ -1,4 +1,4 @@
-class Magazine extends Book {
+class Magazine extends Book implements BookOperations {
     private String category;
 
     public Magazine(String title, String author, int year, String category) {
